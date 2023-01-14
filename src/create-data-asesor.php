@@ -14,7 +14,38 @@
             </div>
             <div class="form-group">
                 <label>Tempat Lahir</label>
-                <input type="text" class="form-control" placeholder="Tempat Lahir" name="tempat_lahir" required>
+                <select class="form-control" name="tempat_lahir">
+                    <option value="">-- Pilih Kota --</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Surabaya">Surabaya</option>
+                    <option value="Medan">Medan</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Bekasi">Bekasi</option>
+                    <option value="Tangerang">Tangerang</option>
+                    <option value="Depok">Depok</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Palembang">Palembang</option>
+                    <option value="Makassar">Makassar</option>
+                    <option value="Bogor">Bogor</option>
+                    <option value="Denpasar">Denpasar</option>
+                    <option value="Malang">Malang</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="Surakarta">Surakarta</option>
+                    <option value="Padang">Padang</option>
+                    <option value="Pekanbaru">Pekanbaru</option>
+                    <option value="Bandar Lampung">Bandar Lampung</option>
+                    <option value="Samarinda">Samarinda</option>
+                    <option value="Cirebon">Cirebon</option>
+                    <option value="Banjarmasin">Banjarmasin</option>
+                    <option value="Manado">Manado</option>
+                    <option value="Batam">Batam</option>
+                    <option value="Balikpapan">Balikpapan</option>
+                    <option value="Pontianak">Pontianak</option>
+                    <option value="Ujung Pandang">Ujung Pandang</option>
+                    <option value="Ambon">Ambon</option>
+                    <option value="Jayapura">Jayapura</option>
+                    <option value="Mataram">Mataram</option>
+                </select>
             </div>
             <div class="form-group">
                 <label>Tanggal Lahir</label>
@@ -54,9 +85,10 @@
             <div class="form-group">
                 <label>Pendidikan Terakhir</label>
                 <select class="form-control" name="education_level">
-                    <option value="s3">S3</option>
-                    <option value="s2">S2</option>
-                    <option value="s1">S1</option>
+                    <option value="">-- Pilih Pendidikan Terakhir --</option>
+                    <option value="S3">S3</option>
+                    <option value="S2">S2</option>
+                    <option value="S1">S1</option>
                 </select>
             </div>
             <div class="form-group">
